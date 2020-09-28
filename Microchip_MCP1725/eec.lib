@@ -1,0 +1,37 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# Microchip MCP1725-1202E/SN
+#
+DEF MCP1725-1202E_SN U 0 40 Y Y 1 L N
+F0 "U" 0 200 50 H V L CNN 
+F1 "MCP1725-1202E/SN" 0 300 50 H V L CNN 
+F2 "Microchip-MCP1725-1202E_SN-*" 0 400 50 H I L CNN 
+F3 "" 0 500 50 H I L CNN 
+F4 "SOIC127P600-8" 0 600 50 H I L CNN "Code  IPC"
+F5 "MS-012" 0 700 50 H I L CNN "Code  JEDEC"
+F6 "revB, Dec-2007" 0 800 50 H I L CNN "Datasheet Version"
+F7 "8-Lead Plastic Small Outline (SN) - Narrow, 3.90mm Body [SOIC]" 0 900 50 H I L CNN "Package Description"
+F8 "revBB, Aug-2009" 0 1000 50 H I L CNN "Package Version"
+F9 "IC" 0 1100 50 H I L CNN "category"
+F10 "1497405" 0 1200 50 H I L CNN "ciiva ids"
+F11 "b5cc3c183a3356a3" 0 1300 50 H I L CNN "library id"
+F12 "Microchip" 0 1400 50 H I L CNN "manufacturer"
+F13 "SOIC-SN8" 0 1500 50 H I L CNN "package"
+F14 "1300337638" 0 1600 50 H I L CNN "release date"
+F15 "7A0836A2-DADF-4635-AEC7-05DC99A782EE" 0 1700 50 H I L CNN "vault revision"
+F16 "yes" 0 1800 50 H I L CNN "imported"
+DRAW
+X VIN 1 100 0 100 R 40 40 1 1 W 
+X VIN 2 100 -100 100 R 40 40 1 1 W 
+X ~SHDN~ 3 100 -300 100 R 40 40 1 1 I 
+X GND 4 1200 -500 100 L 40 40 1 1 W 
+X PWRGD 5 100 -500 100 R 40 40 1 1 W 
+X CDELAY 6 1200 -300 100 L 40 40 1 1 P 
+X SENSE 7 1200 -200 100 L 40 40 1 1 P 
+X VOUT 8 1200 0 100 L 40 40 1 1 W 
+S 200 100 1100 -600 1 1 0 f
+ENDDRAW
+ENDDEF
+#
+# End Library

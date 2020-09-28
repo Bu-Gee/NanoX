@@ -1,0 +1,242 @@
+** Drc report for /home/bu/KiCAD/NanoX/NanoX/NanoX.kicad_pcb **
+** Created on 2020-09-26 04:54:01 **
+
+** Found 8 DRC errors **
+ErrType(45): Courtyards overlap
+    @(145.771 mm, 86.004 mm): Footprint J6 on F.Cu
+    @(107.620 mm, 85.954 mm): Footprint REF** on F.Cu
+ErrType(45): Courtyards overlap
+    @(145.771 mm, 86.004 mm): Footprint J6 on F.Cu
+    @(148.260 mm, 85.954 mm): Footprint REF** on F.Cu
+ErrType(45): Courtyards overlap
+    @(178.791 mm, 101.244 mm): Footprint REF** on F.Cu
+    @(150.851 mm, 101.244 mm): Footprint J3 on F.Cu
+ErrType(45): Courtyards overlap
+    @(178.791 mm, 86.004 mm): Footprint REF** on F.Cu
+    @(150.851 mm, 86.004 mm): Footprint J5 on F.Cu
+ErrType(45): Courtyards overlap
+    @(148.260 mm, 85.954 mm): Footprint REF** on F.Cu
+    @(150.851 mm, 86.004 mm): Footprint J5 on F.Cu
+ErrType(45): Courtyards overlap
+    @(148.260 mm, 101.194 mm): Footprint REF** on F.Cu
+    @(110.211 mm, 101.244 mm): Footprint J4 on F.Cu
+ErrType(45): Courtyards overlap
+    @(148.260 mm, 101.194 mm): Footprint REF** on F.Cu
+    @(150.851 mm, 101.244 mm): Footprint J3 on F.Cu
+ErrType(45): Courtyards overlap
+    @(107.620 mm, 101.194 mm): Footprint REF** on F.Cu
+    @(110.211 mm, 101.244 mm): Footprint J4 on F.Cu
+
+** Found 70 unconnected pads **
+ErrType(2): Unconnected items
+    @(141.806 mm, 95.846 mm): Pad 1 of U2 on F.Cu and others
+    @(141.806 mm, 96.346 mm): Pad 2 of U2 on F.Cu and others
+ErrType(2): Unconnected items
+    @(140.360 mm, 96.195 mm): Pad 1 of C1 on F.Cu and others
+    @(141.806 mm, 96.346 mm): Pad 2 of U2 on F.Cu and others
+ErrType(2): Unconnected items
+    @(138.862 mm, 97.942 mm): Pad 1 of D2 on F.Cu and others
+    @(140.360 mm, 96.195 mm): Pad 1 of C1 on F.Cu and others
+ErrType(2): Unconnected items
+    @(145.771 mm, 101.244 mm): Pad 15 of J4 on All copper layers
+    @(141.806 mm, 96.346 mm): Pad 2 of U2 on F.Cu and others
+ErrType(2): Unconnected items
+    @(141.806 mm, 97.346 mm): Pad 4 of U2 on F.Cu and others
+    @(141.806 mm, 96.846 mm): Pad 3 of U2 on F.Cu and others
+ErrType(2): Unconnected items
+    @(127.498 mm, 97.710 mm): Track 0.200 mm [GND] on F.Cu, length: 0.171 mm
+    @(126.656 mm, 98.552 mm): Track 0.200 mm [GND] on F.Cu, length: 0.225 mm
+ErrType(2): Unconnected items
+    @(134.341 mm, 98.130 mm): Pad 2 of C7 on F.Cu and others
+    @(135.647 mm, 98.130 mm): Pad 2 of C6 on F.Cu and others
+ErrType(2): Unconnected items
+    @(140.360 mm, 98.095 mm): Pad 2 of C1 on F.Cu and others
+    @(141.806 mm, 97.346 mm): Pad 4 of U2 on F.Cu and others
+ErrType(2): Unconnected items
+    @(144.333 mm, 98.654 mm): Pad 2 of C3 on F.Cu and others
+    @(146.202 mm, 98.090 mm): Pad 2 of C4 on F.Cu and others
+ErrType(2): Unconnected items
+    @(134.341 mm, 98.130 mm): Pad 2 of C7 on F.Cu and others
+    @(132.039 mm, 98.552 mm): Pad 2 of C11 on F.Cu and others
+ErrType(2): Unconnected items
+    @(122.865 mm, 98.552 mm): Pad 2 of C9 on F.Cu and others
+    @(121.553 mm, 96.608 mm): Track 0.150 mm [GND] on F.Cu, length: 1.166 mm
+ErrType(2): Unconnected items
+    @(143.577 mm, 94.147 mm): Pad 1 of SW1 on F.Cu and others
+    @(141.402 mm, 93.269 mm): Pad 2 of C5 on F.Cu and others
+ErrType(2): Unconnected items
+    @(143.231 mm, 101.244 mm): Pad 14 of J4 on All copper layers
+    @(144.333 mm, 98.654 mm): Pad 2 of C3 on F.Cu and others
+ErrType(2): Unconnected items
+    @(141.806 mm, 97.346 mm): Pad 4 of U2 on F.Cu and others
+    @(144.333 mm, 98.654 mm): Pad 2 of C3 on F.Cu and others
+ErrType(2): Unconnected items
+    @(141.806 mm, 96.846 mm): Pad 3 of U2 on F.Cu and others
+    @(143.577 mm, 94.147 mm): Pad 1 of SW1 on F.Cu and others
+ErrType(2): Unconnected items
+    @(131.623 mm, 93.590 mm): Pad 5 of U1 on F.Cu and others
+    @(134.428 mm, 91.415 mm): Pad 2 of U3 on F.Cu and others
+ErrType(2): Unconnected items
+    @(126.431 mm, 98.552 mm): Track 0.200 mm [GND] on F.Cu, length: 0.225 mm
+    @(122.865 mm, 98.552 mm): Pad 2 of C9 on F.Cu and others
+ErrType(2): Unconnected items
+    @(127.498 mm, 97.710 mm): Track 0.200 mm [GND] on F.Cu, length: 0.171 mm
+    @(132.039 mm, 98.552 mm): Pad 2 of C11 on F.Cu and others
+ErrType(2): Unconnected items
+    @(143.577 mm, 94.147 mm): Pad 1 of SW1 on F.Cu and others
+    @(147.752 mm, 91.889 mm): Pad 1 of D3 on F.Cu and others
+ErrType(2): Unconnected items
+    @(141.402 mm, 93.269 mm): Pad 2 of C5 on F.Cu and others
+    @(143.577 mm, 88.987 mm): Pad 1 of SW1 on F.Cu and others
+ErrType(2): Unconnected items
+    @(132.039 mm, 98.552 mm): Pad 2 of C11 on F.Cu and others
+    @(131.623 mm, 93.590 mm): Pad 5 of U1 on F.Cu and others
+ErrType(2): Unconnected items
+    @(142.433 mm, 98.654 mm): Pad 1 of C3 on F.Cu and others
+    @(144.706 mm, 96.846 mm): Pad 6 of U2 on F.Cu and others
+ErrType(2): Unconnected items
+    @(128.331 mm, 97.977 mm): Track 0.200 mm [VDD] on F.Cu, length: 0.471 mm
+    @(128.498 mm, 97.710 mm): Track 0.200 mm [VDD] on F.Cu, length: 0.996 mm
+ErrType(2): Unconnected items
+    @(144.706 mm, 96.346 mm): Pad 7 of U2 on F.Cu and others
+    @(144.706 mm, 95.846 mm): Pad 8 of U2 on F.Cu and others
+ErrType(2): Unconnected items
+    @(128.331 mm, 97.977 mm): Track 0.200 mm [VDD] on F.Cu, length: 0.471 mm
+    @(128.407 mm, 98.552 mm): Pad 1 of C10 on F.Cu and others
+ErrType(2): Unconnected items
+    @(128.331 mm, 99.127 mm): Track 0.200 mm [VDD] on F.Cu, length: 0.071 mm
+    @(128.407 mm, 98.552 mm): Pad 1 of C10 on F.Cu and others
+ErrType(2): Unconnected items
+    @(124.597 mm, 99.127 mm): Track 0.200 mm [VDD] on F.Cu, length: 0.071 mm
+    @(124.765 mm, 98.552 mm): Pad 1 of C9 on F.Cu and others
+ErrType(2): Unconnected items
+    @(129.389 mm, 98.552 mm): Track 0.150 mm [VDD] on F.Cu, length: 0.750 mm
+    @(128.407 mm, 98.552 mm): Pad 1 of C10 on F.Cu and others
+ErrType(2): Unconnected items
+    @(144.706 mm, 96.346 mm): Pad 7 of U2 on F.Cu and others
+    @(146.202 mm, 96.190 mm): Pad 1 of C4 on F.Cu and others
+ErrType(2): Unconnected items
+    @(136.795 mm, 94.056 mm): Pad 2 of R5 on F.Cu and others
+    @(137.048 mm, 92.365 mm): Pad 4 of U3 on F.Cu and others
+ErrType(2): Unconnected items
+    @(137.185 mm, 96.037 mm): Pad 1 of L1 on F.Cu and others
+    @(136.795 mm, 94.056 mm): Pad 2 of R5 on F.Cu and others
+ErrType(2): Unconnected items
+    @(137.048 mm, 92.365 mm): Pad 4 of U3 on F.Cu and others
+    @(139.344 mm, 92.165 mm): Pad 1 of JP2 on F.Cu and others
+ErrType(2): Unconnected items
+    @(147.752 mm, 98.263 mm): Pad 1 of R2 on F.Cu and others
+    @(146.202 mm, 96.190 mm): Pad 1 of C4 on F.Cu and others
+ErrType(2): Unconnected items
+    @(136.845 mm, 88.722 mm): Pad 2 of R6 on F.Cu and others
+    @(137.048 mm, 92.365 mm): Pad 4 of U3 on F.Cu and others
+ErrType(2): Unconnected items
+    @(150.851 mm, 101.244 mm): Pad 1 of J3 on All copper layers
+    @(147.752 mm, 98.263 mm): Pad 1 of R2 on F.Cu and others
+ErrType(2): Unconnected items
+    @(144.706 mm, 95.846 mm): Pad 8 of U2 on F.Cu and others
+    @(139.344 mm, 92.165 mm): Pad 1 of JP2 on F.Cu and others
+ErrType(2): Unconnected items
+    @(137.185 mm, 96.037 mm): Pad 1 of L1 on F.Cu and others
+    @(130.139 mm, 98.552 mm): Track 0.150 mm [VDD] on F.Cu, length: 0.750 mm
+ErrType(2): Unconnected items
+    @(146.202 mm, 96.190 mm): Pad 1 of C4 on F.Cu and others
+    @(150.851 mm, 86.004 mm): Pad 1 of J5 on All copper layers
+ErrType(2): Unconnected items
+    @(121.641 mm, 96.876 mm): Track 0.150 mm [~RESET] on B.Cu, length: 1.422 mm
+    @(123.817 mm, 96.770 mm): Track 0.150 mm [~RESET] on F.Cu, length: 2.263 mm
+ErrType(2): Unconnected items
+    @(141.402 mm, 91.369 mm): Pad 1 of C5 on F.Cu and others
+    @(145.577 mm, 88.987 mm): Pad 2 of SW1 on F.Cu and others
+ErrType(2): Unconnected items
+    @(145.577 mm, 94.147 mm): Pad 2 of SW1 on F.Cu and others
+    @(141.402 mm, 91.369 mm): Pad 1 of C5 on F.Cu and others
+ErrType(2): Unconnected items
+    @(141.402 mm, 91.369 mm): Pad 1 of C5 on F.Cu and others
+    @(140.691 mm, 86.004 mm): Pad 3 of J6 on All copper layers
+ErrType(2): Unconnected items
+    @(145.577 mm, 94.147 mm): Pad 2 of SW1 on F.Cu and others
+    @(140.691 mm, 101.244 mm): Pad 13 of J4 on All copper layers
+ErrType(2): Unconnected items
+    @(140.691 mm, 101.244 mm): Pad 13 of J4 on All copper layers
+    @(126.498 mm, 96.715 mm): Track 0.150 mm [~RESET] on F.Cu, length: 0.775 mm
+ErrType(2): Unconnected items
+    @(135.647 mm, 96.230 mm): Pad 1 of C6 on F.Cu and others
+    @(134.341 mm, 96.230 mm): Pad 1 of C7 on F.Cu and others
+ErrType(2): Unconnected items
+    @(135.647 mm, 96.230 mm): Pad 1 of C6 on F.Cu and others
+    @(137.185 mm, 98.237 mm): Pad 2 of L1 on F.Cu and others
+ErrType(2): Unconnected items
+    @(134.341 mm, 96.230 mm): Pad 1 of C7 on F.Cu and others
+    @(131.623 mm, 93.090 mm): Pad 6 of U1 on F.Cu and others
+ErrType(2): Unconnected items
+    @(138.862 mm, 96.242 mm): Pad 2 of D2 on F.Cu and others
+    @(138.151 mm, 97.014 mm): Pad 1 of JP1 on B.Cu and others
+ErrType(2): Unconnected items
+    @(128.524 mm, 87.300 mm): Track 0.300 mm [VUSB] on F.Cu, length: 1.168 mm
+    @(138.862 mm, 96.242 mm): Pad 2 of D2 on F.Cu and others
+ErrType(2): Unconnected items
+    @(147.752 mm, 96.063 mm): Pad 2 of R2 on F.Cu and others
+    @(147.752 mm, 94.089 mm): Pad 2 of D3 on F.Cu and others
+ErrType(2): Unconnected items
+    @(132.864 mm, 97.997 mm): Track 0.150 mm [/PA31_SWDIO] on F.Cu, length: 0.488 mm
+    @(166.091 mm, 86.004 mm): Pad 7 of J5 on All copper layers
+ErrType(2): Unconnected items
+    @(130.964 mm, 97.997 mm): Track 0.150 mm [/PA30_SWCLK] on F.Cu, length: 0.064 mm
+    @(168.631 mm, 86.004 mm): Pad 8 of J5 on All copper layers
+ErrType(2): Unconnected items
+    @(155.931 mm, 86.004 mm): Pad 3 of J5 on All copper layers
+    @(155.931 mm, 101.244 mm): Pad 3 of J3 on All copper layers
+ErrType(2): Unconnected items
+    @(155.931 mm, 86.004 mm): Pad 3 of J5 on All copper layers
+    @(129.924 mm, 92.690 mm): Track 0.150 mm [/PA12_S2_TX-MOSI] on F.Cu, length: 0.354 mm
+ErrType(2): Unconnected items
+    @(158.471 mm, 86.004 mm): Pad 4 of J5 on All copper layers
+    @(158.471 mm, 101.244 mm): Pad 4 of J3 on All copper layers
+ErrType(2): Unconnected items
+    @(130.486 mm, 93.027 mm): Via 0.500 mm [/PA13_S2_RX-MISO] on F.Cu - B.Cu
+    @(158.471 mm, 86.004 mm): Pad 4 of J5 on All copper layers
+ErrType(2): Unconnected items
+    @(161.011 mm, 101.244 mm): Pad 5 of J3 on All copper layers
+    @(130.079 mm, 93.654 mm): Track 0.150 mm [/PA14_S2_RTS-CS] on F.Cu, length: 0.447 mm
+ErrType(2): Unconnected items
+    @(163.551 mm, 86.004 mm): Pad 6 of J5 on All copper layers
+    @(163.551 mm, 101.244 mm): Pad 6 of J3 on All copper layers
+ErrType(2): Unconnected items
+    @(129.083 mm, 93.787 mm): Via 0.500 mm [/PA15_S2_CTS-SCK] on F.Cu - B.Cu
+    @(163.551 mm, 101.244 mm): Pad 6 of J3 on All copper layers
+ErrType(2): Unconnected items
+    @(166.091 mm, 101.244 mm): Pad 7 of J3 on All copper layers
+    @(130.498 mm, 88.965 mm): Pad 13 of U1 on F.Cu and others
+ErrType(2): Unconnected items
+    @(129.754 mm, 95.365 mm): Track 0.150 mm [/RX_NINA_PROG] on F.Cu, length: 0.247 mm
+    @(168.631 mm, 101.244 mm): Pad 8 of J3 on All copper layers
+ErrType(2): Unconnected items
+    @(171.171 mm, 101.244 mm): Pad 9 of J3 on All copper layers
+    @(130.404 mm, 95.065 mm): Track 0.150 mm [/TX_NINA_PROG] on F.Cu, length: 0.247 mm
+ErrType(2): Unconnected items
+    @(173.711 mm, 101.244 mm): Pad 10 of J3 on All copper layers
+    @(131.623 mm, 95.590 mm): Pad 1 of U1 on F.Cu and others
+ErrType(2): Unconnected items
+    @(176.251 mm, 101.244 mm): Pad 11 of J3 on All copper layers
+    @(131.623 mm, 95.090 mm): Pad 2 of U1 on F.Cu and others
+ErrType(2): Unconnected items
+    @(138.151 mm, 101.244 mm): Pad 12 of J4 on All copper layers
+    @(138.151 mm, 98.464 mm): Pad 2 of JP1 on B.Cu and others
+ErrType(2): Unconnected items
+    @(161.011 mm, 86.004 mm): Pad 5 of J5 on All copper layers
+    @(125.998 mm, 96.006 mm): Track 0.150 mm [/PA27_GPIO0] on F.Cu, length: 0.709 mm
+ErrType(2): Unconnected items
+    @(176.251 mm, 86.004 mm): Pad 11 of J5 on All copper layers
+    @(126.998 mm, 96.715 mm): Pad 41 of U1 on F.Cu and others
+ErrType(2): Unconnected items
+    @(137.048 mm, 90.465 mm): Pad 5 of U3 on F.Cu and others
+    @(139.344 mm, 90.715 mm): Pad 2 of JP2 on F.Cu and others
+ErrType(2): Unconnected items
+    @(171.171 mm, 86.004 mm): Pad 9 of J5 on All copper layers
+    @(123.873 mm, 94.590 mm): Pad 34 of U1 on F.Cu and others
+ErrType(2): Unconnected items
+    @(173.711 mm, 86.004 mm): Pad 10 of J5 on All copper layers
+    @(123.873 mm, 94.090 mm): Track 0.152 mm [/USB-] on F.Cu, length: 0.938 mm
+
+** End of Report **
