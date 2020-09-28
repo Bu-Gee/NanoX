@@ -821,10 +821,10 @@ F 3 "" H 9250 5800 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Jumper:SolderJumper_2_Open JP1
+L Jumper:SolderJumper_2_Open VUSB1
 U 1 1 5F8BB41B
 P 8200 5800
-F 0 "JP1" H 8200 6005 50  0000 C CNN
+F 0 "VUSB1" H 8200 6005 50  0000 C CNN
 F 1 "VUSB Jumper" H 8200 5914 50  0000 C CNN
 F 2 "Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm" H 8200 5800 50  0001 C CNN
 F 3 "~" H 8200 5800 50  0001 C CNN
@@ -949,6 +949,7 @@ F 0 "J2" H 3307 3946 50  0000 R CNN
 F 1 "Conn_ARM_JTAG_SWD_10" H 3307 3855 50  0000 R CNN
 F 2 "Pin_Headers:Pin_Header_Straight_2x05_Pitch1.27mm" H 3750 3900 50  0001 C CNN
 F 3 "http://infocenter.arm.com/help/topic/com.arm.doc.ddi0314h/DDI0314H_coresight_components_trm.pdf" V 3400 2650 50  0001 C CNN
+F 4 "1175-1627-ND" H 3750 3900 50  0001 C CNN "Digikey"
 	1    3750 3900
 	1    0    0    -1  
 $EndComp
@@ -1187,8 +1188,9 @@ U 1 1 5F0B3016
 P 2750 2950
 F 0 "D1" H 3294 2996 50  0000 L CNN
 F 1 "PRTR5V0U2X" H 3294 2905 50  0000 L CNN
-F 2 "Package_TO_SOT_SMD:SOT-143" H 2810 2950 50  0001 C CNN
+F 2 "TO_SOT_Packages_SMD:SOT-143" H 2810 2950 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/PRTR5V0U2X.pdf" H 2810 2950 50  0001 C CNN
+F 4 "1727-3884-1-ND" H 2750 2950 50  0001 C CNN "Digikey"
 	1    2750 2950
 	1    0    0    -1  
 $EndComp
@@ -1217,22 +1219,23 @@ L Microchip_MCP1725:MCP1725-1202E_SN U2
 U 1 1 5F7586A8
 P 1600 5800
 F 0 "U2" H 2250 6065 50  0000 C CNN
-F 1 "MCP1725-1202E_SN" H 2250 5974 50  0000 C CNN
-F 2 "Microchip-MCP1725-1202E_SN-*" H 1600 6200 50  0001 L CNN
+F 1 "MCP1725-3302E_MC" H 2250 5974 50  0000 C CNN
+F 2 "Package_DFN_QFN:DFN-8-1EP_3x2mm_P0.5mm_EP1.75x1.45mm" H 1600 6200 50  0001 L CNN
 F 3 "" H 1600 6300 50  0001 L CNN
-F 4 "SOIC127P600-8" H 1600 6400 50  0001 L CNN "Code  IPC"
-F 5 "MS-012" H 1600 6500 50  0001 L CNN "Code  JEDEC"
-F 6 "revB, Dec-2007" H 1600 6600 50  0001 L CNN "Datasheet Version"
-F 7 "8-Lead Plastic Small Outline (SN) - Narrow, 3.90mm Body [SOIC]" H 1600 6700 50  0001 L CNN "Package Description"
-F 8 "revBB, Aug-2009" H 1600 6800 50  0001 L CNN "Package Version"
+F 4 "" H 1600 6400 50  0001 L CNN "Code  IPC"
+F 5 "" H 1600 6500 50  0001 L CNN "Code  JEDEC"
+F 6 "" H 1600 6600 50  0001 L CNN "Datasheet Version"
+F 7 "" H 1600 6700 50  0001 L CNN "Package Description"
+F 8 "" H 1600 6800 50  0001 L CNN "Package Version"
 F 9 "IC" H 1600 6900 50  0001 L CNN "category"
 F 10 "1497405" H 1600 7000 50  0001 L CNN "ciiva ids"
 F 11 "b5cc3c183a3356a3" H 1600 7100 50  0001 L CNN "library id"
 F 12 "Microchip" H 1600 7200 50  0001 L CNN "manufacturer"
-F 13 "SOIC-SN8" H 1600 7300 50  0001 L CNN "package"
+F 13 "8-VFDFN_EP" H 1600 7300 50  0001 L CNN "package"
 F 14 "1300337638" H 1600 7400 50  0001 L CNN "release date"
 F 15 "7A0836A2-DADF-4635-AEC7-05DC99A782EE" H 1600 7500 50  0001 L CNN "vault revision"
 F 16 "yes" H 1600 7600 50  0001 L CNN "imported"
+F 17 "MCP1725-3302E/MC-ND" H 1600 5800 50  0001 C CNN "Digikey"
 	1    1600 5800
 	1    0    0    -1  
 $EndComp
@@ -1326,8 +1329,9 @@ U 1 1 5F7C3A3E
 P 6100 6050
 F 0 "U3" H 5770 6096 50  0000 R CNN
 F 1 "CAT24C16YI-GT3" H 5770 6005 50  0000 R CNN
-F 2 "Package_TO_SOT_SMD:SOT-23-5" H 6100 6050 50  0001 C CNN
+F 2 "TO_SOT_Packages_SMD:TSOT-23-5" H 6100 6050 50  0001 C CNN
 F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-8815-SEEPROM-AT24CS01-02-Datasheet.pdf" H 6100 6050 50  0001 C CNN
+F 4 "CAT24C16YI-GT3CT-ND" H 6100 6050 50  0001 C CNN "Digikey"
 	1    6100 6050
 	1    0    0    -1  
 $EndComp
@@ -1366,10 +1370,10 @@ A5_SCL
 Text Label 7300 5950 2    50   ~ 0
 A4_SDA
 $Comp
-L Jumper:SolderJumper_2_Open JP2
+L Jumper:SolderJumper_2_Open WP1
 U 1 1 5F81D10F
 P 6600 5650
-F 0 "JP2" H 6600 5855 50  0000 C CNN
+F 0 "WP1" H 6600 5855 50  0000 C CNN
 F 1 "Write Protect" H 6600 5764 50  0000 C CNN
 F 2 "Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm" H 6600 5650 50  0001 C CNN
 F 3 "~" H 6600 5650 50  0001 C CNN
