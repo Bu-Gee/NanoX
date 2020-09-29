@@ -2,7 +2,7 @@
 <export version="D">
   <design>
     <source>/home/bu/KiCAD/NanoX/NanoX/NanoX.sch</source>
-    <date>Mon 28 Sep 2020 17:23:54 EDT</date>
+    <date>Tue 29 Sep 2020 12:01:24 EDT</date>
     <tool>Eeschema 5.1.5</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -100,6 +100,9 @@
     <comp ref="D2">
       <value>D_Schottky</value>
       <footprint>Diodes_SMD:D_0603</footprint>
+      <fields>
+        <field name="Digikey">641-1520-1-ND</field>
+      </fields>
       <libsource lib="device" part="D_Schottky" description="Schottky diode"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5F889D62</tstamp>
@@ -157,6 +160,9 @@
     <comp ref="SW1">
       <value>SW_Push</value>
       <footprint>Buttons_Switches_SMD:SW_SPST_EVQP2</footprint>
+      <fields>
+        <field name="Digikey">P12298SCT-ND</field>
+      </fields>
       <libsource lib="switches" part="SW_Push" description="Push button switch, generic, two pins"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5F69C4F6</tstamp>
