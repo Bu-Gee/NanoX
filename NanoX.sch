@@ -854,18 +854,6 @@ F 3 "" H 2750 1600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:D_Schottky D2
-U 1 1 5F889D62
-P 2900 1800
-F 0 "D2" H 2900 1584 50  0000 C CNN
-F 1 "D_Schottky" H 2900 1675 50  0000 C CNN
-F 2 "Diodes_SMD:D_0603" H 2900 1800 50  0001 C CNN
-F 3 "" H 2900 1800 50  0001 C CNN
-F 4 "641-1520-1-ND" H 2900 1800 50  0001 C CNN "Digikey"
-	1    2900 1800
-	-1   0    0    1   
-$EndComp
-$Comp
 L power:GND #PWR023
 U 1 1 5F8813E2
 P 8600 6000
@@ -986,18 +974,6 @@ F 2 "" H 5050 5200 50  0001 C CNN
 F 3 "" H 5050 5200 50  0001 C CNN
 	1    5050 5200
 	1    0    0    -1  
-$EndComp
-$Comp
-L switches:SW_Push SW1
-U 1 1 5F69C4F6
-P 5050 4900
-F 0 "SW1" V 5096 4852 50  0000 R CNN
-F 1 "SW_Push" V 5005 4852 50  0000 R CNN
-F 2 "Buttons_Switches_SMD:SW_SPST_EVQP2" H 5050 5100 50  0001 C CNN
-F 3 "" H 5050 5100 50  0001 C CNN
-F 4 "P12298SCT-ND" V 5050 4900 50  0001 C CNN "Digikey"
-	1    5050 4900
-	0    -1   -1   0   
 $EndComp
 $Comp
 L Device:C C5
@@ -1163,26 +1139,6 @@ F 2 "Capacitors_SMD:C_0603_HandSoldering" H 1138 3650 50  0001 C CNN
 F 3 "~" H 1100 3800 50  0001 C CNN
 	1    1100 3800
 	1    0    0    -1  
-$EndComp
-$Comp
-L dk_Embedded-Microcontrollers:ATSAMD21G18A-AUT U1
-U 1 1 5F0B5DD3
-P 6200 2800
-F 0 "U1" H 6200 1303 60  0000 C CNN
-F 1 "ATSAMD21G18A-AUT" H 6200 1197 60  0000 C CNN
-F 2 "digikey-footprints:TQFP-48_7x7mm" H 6400 3000 60  0001 L CNN
-F 3 "http://www.microchip.com/mymicrochip/filehandler.aspx?ddocname=en605782" H 6400 3100 60  0001 L CNN
-F 4 "ATSAMD21G18A-AUTCT-ND" H 6400 3200 60  0001 L CNN "Digi-Key_PN"
-F 5 "ATSAMD21G18A-AUT" H 6400 3300 60  0001 L CNN "MPN"
-F 6 "Integrated Circuits (ICs)" H 6400 3400 60  0001 L CNN "Category"
-F 7 "Embedded - Microcontrollers" H 6400 3500 60  0001 L CNN "Family"
-F 8 "http://www.microchip.com/mymicrochip/filehandler.aspx?ddocname=en605782" H 6400 3600 60  0001 L CNN "DK_Datasheet_Link"
-F 9 "/product-detail/en/microchip-technology/ATSAMD21G18A-AUT/ATSAMD21G18A-AUTCT-ND/4878879" H 6400 3700 60  0001 L CNN "DK_Detail_Page"
-F 10 "IC MCU 32BIT 256KB FLASH 48TQFP" H 6400 3800 60  0001 L CNN "Description"
-F 11 "Microchip Technology" H 6400 3900 60  0001 L CNN "Manufacturer"
-F 12 "Active" H 6400 4000 60  0001 L CNN "Status"
-	1    6200 2800
-	-1   0    0    -1  
 $EndComp
 $Comp
 L Power_Protection:PRTR5V0U2X D1
@@ -1940,4 +1896,48 @@ Wire Bus Line
 	10600 1750 10600 6350
 Wire Bus Line
 	7450 1700 7450 4600
+$Comp
+L switches:SW_Push SW1
+U 1 1 5F69C4F6
+P 5050 4900
+F 0 "SW1" V 5096 4852 50  0000 R CNN
+F 1 "SW_Push" V 5005 4852 50  0000 R CNN
+F 2 "Buttons_Switches_SMD:SW_SPST_EVQP2" H 5050 5100 50  0001 C CNN
+F 3 "" H 5050 5100 50  0001 C CNN
+F 4 "P12298SCT-ND" V 5050 4900 50  0001 C CNN "Digikey"
+	1    5050 4900
+	0    -1   -1   0   
+$EndComp
+$Comp
+L device:D_Schottky D2
+U 1 1 5F889D62
+P 2900 1800
+F 0 "D2" H 2900 1584 50  0000 C CNN
+F 1 "D_Schottky" H 2900 1675 50  0000 C CNN
+F 2 "Diodes_SMD:D_0603" H 2900 1800 50  0001 C CNN
+F 3 "" H 2900 1800 50  0001 C CNN
+F 4 "641-1520-1-ND" H 2900 1800 50  0001 C CNN "Digikey"
+	1    2900 1800
+	-1   0    0    1   
+$EndComp
+$Comp
+L dk_Embedded-Microcontrollers:ATSAMD21G18A-AUT U1
+U 1 1 5F0B5DD3
+P 6200 2800
+F 0 "U1" H 6200 1303 60  0000 C CNN
+F 1 "ATSAMD21G18A-AUT" H 6200 1197 60  0000 C CNN
+F 2 "digikey-footprints:TQFP-48_7x7mm" H 6400 3000 60  0001 L CNN
+F 3 "http://www.microchip.com/mymicrochip/filehandler.aspx?ddocname=en605782" H 6400 3100 60  0001 L CNN
+F 4 "ATSAMD21G18A-AUTCT-ND" H 6400 3200 60  0001 L CNN "Digi-Key_PN"
+F 5 "ATSAMD21G18A-AUT" H 6400 3300 60  0001 L CNN "MPN"
+F 6 "Integrated Circuits (ICs)" H 6400 3400 60  0001 L CNN "Category"
+F 7 "Embedded - Microcontrollers" H 6400 3500 60  0001 L CNN "Family"
+F 8 "http://www.microchip.com/mymicrochip/filehandler.aspx?ddocname=en605782" H 6400 3600 60  0001 L CNN "DK_Datasheet_Link"
+F 9 "/product-detail/en/microchip-technology/ATSAMD21G18A-AUT/ATSAMD21G18A-AUTCT-ND/4878879" H 6400 3700 60  0001 L CNN "DK_Detail_Page"
+F 10 "IC MCU 32BIT 256KB FLASH 48TQFP" H 6400 3800 60  0001 L CNN "Description"
+F 11 "Microchip Technology" H 6400 3900 60  0001 L CNN "Manufacturer"
+F 12 "Active" H 6400 4000 60  0001 L CNN "Status"
+	1    6200 2800
+	-1   0    0    -1  
+$EndComp
 $EndSCHEMATC
