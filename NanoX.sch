@@ -1197,17 +1197,6 @@ F 17 "MCP1725-3302E/MC-ND" H 1600 5800 50  0001 C CNN "Digikey"
 	1    1600 5800
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	950  6150 950  6250
-Wire Wire Line
-	1700 6100 1300 6100
-Wire Wire Line
-	1300 6100 1300 6250
-Wire Wire Line
-	1300 6250 950  6250
-Connection ~ 950  6250
-Wire Wire Line
-	950  6250 950  6450
 NoConn ~ 1700 6300
 $Comp
 L power:GND #PWR029
@@ -1888,14 +1877,6 @@ Wire Wire Line
 	8850 2700 8850 2200
 Wire Wire Line
 	8850 2200 8750 2200
-Wire Bus Line
-	7450 4600 7450 6350
-Wire Bus Line
-	5150 1750 5150 4600
-Wire Bus Line
-	10600 1750 10600 6350
-Wire Bus Line
-	7450 1700 7450 4600
 $Comp
 L switches:SW_Push SW1
 U 1 1 5F69C4F6
@@ -1940,4 +1921,19 @@ F 12 "Active" H 6400 4000 60  0001 L CNN "Status"
 	1    6200 2800
 	-1   0    0    -1  
 $EndComp
+Wire Wire Line
+	950  6150 950  6450
+Wire Wire Line
+	1700 6100 1600 6100
+Wire Wire Line
+	1600 6100 1600 5900
+Wire Bus Line
+	7450 4600 7450 6350
+Wire Bus Line
+	5150 1750 5150 4600
+Wire Bus Line
+	10600 1750 10600 6350
+Wire Bus Line
+	7450 1700 7450 4600
+Connection ~ 1600 5900
 $EndSCHEMATC
